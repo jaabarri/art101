@@ -12,3 +12,13 @@
   font-size: 500%;
   color: purple;
 }
+
+.minor-section.code p{
+  text-indent: 20px;
+}
+
+.minor-section.code #content {
+  background-color: #DDD8C4;
+  border: dashed 3px #888;
+  
+}
