@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -20,27 +20,91 @@
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
+	
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 -Pseudocode</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>To pseudocode a mini game, we choose cops and robbers.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>It was challening to incorperate the pseudocode in java script, more specifically adding comments, the formatting portion was tricky to figure out.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Overall, we like our mini game idea and now understand pseudocoding to a better extent. 
+					</p>
 			</div>
 
+			<img class="cr" src="./img/cr.jpg">
+<p>
+	<h2>Pseudocode</h2>
+	<pre>
+// Cops and Robbers Game
+// An implementation of the game
+// Leyton and Jacob 
+// October 2023
+//# Pseudocode for a Cops vs. Robbers Game
+
+//# Initialize game variables
+//Create a map
+//Create a list of players
+//Create a list of items (e.g., weapons, money)
+//Initialize player locations on the map
+//Initialize item locations on the map
+
+//# Game loop
+//While true:
+  //  # Display the game map
+    //Display the map with player and item locations
+
+    //# Check for game over conditions
+    //If all robbers are caught or all money is stolen:
+      //  Display a message indicating the game is over
+        //Exit the game loop
+
+    //# Allow players to take actions
+    //For each player in players:
+      //  If the player is a cop:
+        //    Allow the cop to move or arrest a robber
+        //If the player is a robber:
+          //  Allow the robber to move or steal money
+
+   // # Update player and item locations
+    //Update player positions based on their actions
+    //Update item positions if items are stolen or moved
+
+    //# Check for player interactions
+    //For each pair of players on the same location:
+      //  If a cop is on the same location as a robber:
+        //    Arrest the robber, remove them from the game
+        //If a robber is on the same location as money:
+          //  Steal the money
+
+    //# Check for other events
+    //Randomly generate events (e.g., police reinforcements, new items)
+    //Handle special events
+
+    //# Check for game over conditions (again)
+    //If all robbers are caught or all money is stolen:
+      //  Display a message indicating the game is over
+        //Exit the game loop
+
+//# End of the game
+//Display the final result (cops win or robbers win)
+
+	</pre>
+</p>
 			<div class="minor-section">
 					<h2>Results</h2>
+					<p>
+						Check out that good looking pseudocode! 
+					</p>
 					<div id="output"></div>
 			</div>
 		</section>
